@@ -1,0 +1,91 @@
+.body {
+    position: relative;
+    margin-bottom: 50px;
+    z-index: 33 !important;
+    .oneBlockRegister {
+        background-color: #1d3557;
+        height: 80px;
+        width: 100%;
+    }
+    .twoBlockRegister {
+        background: #ffffff;
+        height: 80px;
+        width: 100%;
+        box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.15);
+        border-radius: 0px 0px 20px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 20px;
+    }
+    .afterTextBlock{
+        width: 50px;
+        height: 15px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        background-color: #9EB4C1;
+    }
+    .afterTextBlockTwo{
+        width: 50px;
+        height: 25px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        background-color: #9EB4C1;
+    }
+    .textBlockHeader{
+        display: flex;
+        align-items: center;
+    }
+    .rightBlockHeader{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .textHeader {
+        margin: 0 10px 0 0;
+        color: #1D3557;
+        font-size: 15px;    
+    }
+    .twoTextHeader {
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .burgerMenuIcon{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-end;
+        height: 60px;
+        width: 99%;
+        cursor: pointer;
+    }
+    .burgerMenuIcon svg {
+        margin: 3px 0;
+    }
+    .leftBlockHeader{
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 45px;
+        left: 50px;
+        @media only screen and (max-width: 600px) {
+            left: 30px;
+        }
+    }
+    .leftBlockHeader p{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        color: #FFFFFF;
+        margin-left: 20px;
+    }
+    .bgColorBlock{
+        width: 10%;
+        height: 200px;
+        background-color: #C4C4C4;
+        position: absolute;
+        right: 0;
+        top: 10px;
+        z-index: -1;
+    }
+}
